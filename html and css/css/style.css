@@ -1,0 +1,101 @@
+/* home page */
+header.navbar-deafault{
+  margin : 0px;
+  border-bottom: 1px solid rgba(0,0,0,15);
+  box-shadow: 0 1px 12px rgba(0,0,0,3);
+}
+header .navbar-form .form-control {
+	border: 1px solid #d3d3d3;
+	border-radius: 4px;
+}
+header .navbar-default .navbar-nav>li>a {
+	border-right: 1px solid #d3d3d3;
+}
+body{
+  background : #dfdce3;
+  font-family : 'open sans' sans-sherif;
+  font weight : 400;
+}
+.main-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #fff url('../img/back2.jpg') center center no-repeat fixed;
+}
+.main-content.bottom-0 { padding-bottom: 0; }
+.big-image{
+  color : #dfdce3;
+  padding-top : 80px;
+  padding-bottom : 120px;
+  text-align : center;
+}
+.explore{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background : #dfdce3;
+  color : #4abdac;
+  text-align: center;
+}
+.explore .explore-button .btn {
+  background : #4abdac;
+  border-color: #4abdac;
+	margin-top: 20px;
+	padding: 7px 25px;
+	border-radius: 30px;
+	font-weight: 600;
+}
+.explore.explore-button h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.benefits{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #dfdce3;
+  color: #4abdac;
+  text-align: center;
+}
+.benefits .benefits-items {
+	max-width: 360px;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+}
+.benefits .benefits-items i {
+	display: block;
+  margin : 0 auto;
+	width: 60px;
+	text-align: center;
+	font-size: 50px;
+	color: #4abdac;
+}
+/* registration page  and login page*/
+.main-content1 .reg-form {
+  max-width : 450px;
+  margin : 0 auto;
+  text-align : center;
+}
+.main-content1 .reg-form h2{
+  padding-top : 20px;
+  margin-top : 0 auto;
+  font-size : 30px;
+}
+.main-content1 .reg-form form {
+  padding-top : 20px;
+  max-width : 300px;
+  margin : 0 auto;
+  font-size : 15px;
+  text-align : left;
+}
+.main-content1 .reg-form form .form-fill{
+  box-shadow : none !important;
+  padding : 5px 100px 5px 10px;
+  border : 1px solid #4abdac;
+  border-radius : 4px;
+}
+.main-content1 .reg-form form .btn{
+  background : #4abdac;
+  border-color : #4abdac;
+  margin-top : 5px;
+  margin-right: 3px;
+
+}
